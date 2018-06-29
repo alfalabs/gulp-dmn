@@ -1,6 +1,6 @@
 {
   "name": "gulp-dmn",
-  "description": "Node package dependency cleaner and .npmignore file generator.",
+  "description": "Node package dependency cleaner",
   "version": "0.0.1",
   "author": "alfalabs",
   "credits": "Ivan Nikulin <ifaaan@gmail.com> (https://github.com/inikulin)",
@@ -9,14 +9,12 @@
     "clutter",
     "dependencies",
     "npm",
-    "npmignore",
-    ".npmignore",
-    "generator"
+    "gulp"
   ],
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": " "
+    "url": "https://github.com/alfalabs/gulp-dmn.git"
   },
   "dependencies": {
     "co": "3.1.0",
