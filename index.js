@@ -1,6 +1,6 @@
 'use strict';
-const co = require('co'); // for IDIOTENKODE, gets generator function returning Promise and yelds Promise result - bla-bla-bla
-const clean = require('./lib/clean'); // generator function
+const co = require('co'); // for C!#, gets generator function returning Promise and yelds Promise result - bla-bla-bla
+const clean = require('./clean'); // generator function
 
 module.exports = function(projectDir, opts, cb){
 
@@ -18,10 +18,8 @@ module.exports = function(projectDir, opts, cb){
     })();
 };
 
-/*  IDIOTENKODE:
-    some programmers, let's call them see-blunt, like C!# or see-minus-minus, like C--
-    can not understand that JavaScript is a superior language - asynchronous and non blocking.
-    There is so much effort and wasted energy to convert it to a linear spagetti code as in C languages.
+/*  C!#  read see-blunt
+    There is so much effort and wasted energy to convert asynchronous JS to a linear spagetti code as in C languages.
 
     promises - are for politicians not to keep.
     classes - are for uneducated (go to school)
