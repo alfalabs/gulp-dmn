@@ -6,7 +6,7 @@
 ---
 **dmn** (*"<b>d</b>ependency <b>m</b>i<b>n</b>ifier" or "<b>d</b>amn <b>m</b>issing .<b>n</b>pmignore" or "<b>d</b>mn is a <b>m</b>eaningless <b>n</b>ame"*) - is a 
 wrapper for command line utility `dmn`  
-Operations are based on list of ignore targets in `lib/targets.js`
+Operations are based on list of ignore targets in `targets.js`
 
 ## Install
 ```
@@ -48,7 +48,8 @@ gulp.task('npm-install-and-purge', function(cb){
     function step1(_cb){
         pump([
             gulp.src([`${dest}package.json`]), 
-            install({args: ['--only=production' ]})
+            install({args: ['--only=production' ]}),
+            gulp.dest(dest)
         ], _cb);
     }
 
