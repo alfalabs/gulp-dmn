@@ -69,5 +69,8 @@ module.exports = [
     'README.md',
     'readme.md',
     'README.markdown',
-    'changelog.*'
+    'changelog.*',
+    '.eslintrc.*',
+    'eslintrc.*',
+    'karma.conf.*'
 ];

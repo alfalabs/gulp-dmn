@@ -4,8 +4,8 @@
 *Because I don't need your tests in my production!*
 
 ---
-**dmn** (*"<b>d</b>ependency <b>m</b>i<b>n</b>ifier" or "<b>d</b>amn <b>m</b>issing .<b>n</b>pmignore" or "<b>d</b>mn is a <b>m</b>eaningless <b>n</b>ame"*) - is a 
-wrapper for command line utility `dmn`  
+**dmn** (*"<b>d</b>ependency <b>m</b>i<b>n</b>ifier" or "<b>d</b>amn <b>m</b>issing .<b>n</b>pmignore" or "<b>d</b>mn is a <b>m</b>eaningless <b>n</b>ame"*)  
+**gulp-dmn** is a wrapper for command line utility  [dmn](http://inikulin.github.io/dmn/).
 Operations are based on list of ignore targets in `targets.js`
 
 ## Install
@@ -62,6 +62,10 @@ gulp.task('npm-install-and-purge', function(cb){
 });
 ```
 
+## similar utility for bower
+
+npm: [bower-purge](https://www.npmjs.com/package/bower-purge)  
+github: [bower-purge](https://github.com/alfalabs/bower-purge)
 
 ## Credits
 dmn crator [Ivan Nikulin](https://github.com/inikulin) (ifaaan@gmail.com)
