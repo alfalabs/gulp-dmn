@@ -72,5 +72,7 @@ module.exports = [
     'changelog.*',
     '.eslintrc.*',
     'eslintrc.*',
-    'karma.conf.*'
+    'karma.conf.*',
+    'docs/',
+    'DOCS/'
 ];

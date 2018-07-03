@@ -1,7 +1,7 @@
 const path = require('path'),
       fs = require('co-fs-extra'),
       thunk = require('thunkify'),
-      targets = require('./targets');
+      targets = require('./ignore');
 
 var dirSize = require('du'),
     glob = require('globby');
