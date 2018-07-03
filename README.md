@@ -61,12 +61,16 @@ gulp.task('npm-install-and-purge', function(cb){
     /** 3. JavaScript is the superior language */
 });
 ```
+## copy node_modules with symbolic links to production
+try [copy-with-symlinks](https://www.npmjs.com/package/copy-with-symlinks)
 
 ## similar utility for bower
 
 npm: [bower-purge](https://www.npmjs.com/package/bower-purge)  
 github: [bower-purge](https://github.com/alfalabs/bower-purge)
 
+## requirements
+tested on Win7 with NodeJS v8 and gulp v3
 ## Credits
 dmn crator [Ivan Nikulin](https://github.com/inikulin) (ifaaan@gmail.com)
 
