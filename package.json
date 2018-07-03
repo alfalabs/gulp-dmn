@@ -9,7 +9,8 @@
     "clutter",
     "dependencies",
     "npm",
-    "gulp"
+    "gulp",
+    "node-modules"
   ],
   "main": "./index.js",
   "repository": {
