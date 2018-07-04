@@ -1,10 +1,11 @@
 # gulp-dmn
 
+This package will not be maintained in future.  
+## try more comprehensive utility [node-modules-prod](https://www.npmjs.com/package/node-modules-prod)  
+## try similar utility for bower  [bower-purge](https://www.npmjs.com/package/bower-purge)  
 
-*Because I don't need your tests in my production!*
 
 ---
-**dmn** (*"<b>d</b>ependency <b>m</b>i<b>n</b>ifier" or "<b>d</b>amn <b>m</b>issing .<b>n</b>pmignore" or "<b>d</b>mn is a <b>m</b>eaningless <b>n</b>ame"*)  
 **gulp-dmn** is a wrapper for command line utility  [dmn](http://inikulin.github.io/dmn/).
 Operations are based on list of ignore targets in `ignore.js`
 
